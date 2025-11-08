@@ -1,0 +1,44 @@
+.section-card {
+    background-color: #2D3748;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    max-width: 650px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #3d4659;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.section-card a {
+    text-decoration: none;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.section-card h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: italic;
+    font-size: 1.8rem;
+    color: #DFD0B8;
+    margin-top: 0.5rem;
+}
+
+.section-card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.section-card .tag {
+    background-color: #4A5568;
+    color: #DFD0B8;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
