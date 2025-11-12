@@ -6,7 +6,7 @@
     max-width: 650px;
     width: 100%;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2girem;
 }
 
 #profile-pic-container {
@@ -40,7 +40,6 @@
 
 .social-links a {
     margin: 0.1rem 0.1rem;
-    text-decoration: none;
 }
 
 .social-links svg {
