@@ -11,7 +11,7 @@
     max-width: 650px;
     width: 100%;
     align-items: center;
-    margin-bottom: 2girem;
+    margin-bottom: 2rem;
 }
 
 #profile-pic-container {
@@ -71,4 +71,42 @@
 .social-links svg {
     width: 28px;
     height: 28px;
+}
+
+@media (max-width: 480px) {
+
+    #profile-card {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 1.2rem 0.8rem;
+        gap: 1rem;
+        box-sizing: border-box;
+        margin: 0 auto 1.5rem;
+    }
+
+    #profile-pic-container,
+    #profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .role-text {
+        font-size: 1.05rem;
+        padding: 0 0.5rem;
+        line-height: 1.4;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .social-links svg {
+        width: 26px;
+        height: 26px;
+    }
 }

@@ -38,3 +38,27 @@
     font-size: 0.8rem;
     white-space: nowrap;
 }
+
+@media (max-width: 480px) {
+
+    .section-card {
+        max-width: 100%;
+        padding: 1.2rem 1rem;
+        margin: 0 auto 1.2rem;
+        box-sizing: border-box;
+    }
+
+    .section-card h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .section-card .tags {
+        gap: 0.4rem;
+    }
+
+    .section-card .tag {
+        font-size: 0.7rem;
+        padding: 0.25rem 0.5rem;
+    }
+}

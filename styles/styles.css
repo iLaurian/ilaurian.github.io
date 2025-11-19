@@ -1,5 +1,4 @@
 html {
-    height: 100vh;
     background: #222831;
     color: #DFD0B8;
     font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
@@ -15,8 +14,13 @@ body {
     margin: 0;
 }
 
+main {
+    padding: 0 0.5rem;
+}
+
 #main-page-header {
     font-size: 3rem;
+    margin-top: 3rem;
 }
 
 .footer-content {
@@ -63,4 +67,37 @@ a {
 
 .home-link a:hover::after {
     width: 100%;
+}
+
+@media (max-width: 480px) {
+
+    html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        justify-content: flex-start;
+    }
+
+    #main-page-header {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 1.2rem;
+        padding: 0 0.5rem;
+    }
+
+    .footer-content {
+        width: 100%;
+        padding: 1.2rem 0.5rem;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 0.75rem;
+        box-sizing: border-box;
+        border-top: 1px solid #3d4659;
+        background-color: #1E232A;
+        margin-top: auto;
+        color: #a0aec0;
+    }
 }
