@@ -73,7 +73,7 @@
     height: 28px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     #profile-card {
         flex-direction: column;

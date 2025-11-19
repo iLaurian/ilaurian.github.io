@@ -85,7 +85,7 @@
     border-left-color: #FFC300;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     #content-container {
         padding: 0 0.75rem;

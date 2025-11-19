@@ -39,7 +39,7 @@
     white-space: nowrap;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     .section-card {
         max-width: 100%;
