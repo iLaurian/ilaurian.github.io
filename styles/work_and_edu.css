@@ -19,7 +19,7 @@
     margin-bottom: 2rem;
 }
 
-#exp-edu-title {
+#category-title {
     margin-bottom: 3rem;
 }
 
@@ -97,13 +97,6 @@
     .home-link {
         text-align: center;
         margin-bottom: 1.5rem;
-    }
-
-    #exp-edu-title {
-        text-align: center;
-        font-size: 1.8rem;
-        margin-bottom: 2rem;
-        padding: 0 0.5rem;
     }
 
     .dropdown {
