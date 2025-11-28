@@ -35,7 +35,7 @@
     transform: scale(1.05);
 }
 
-.role-text {
+#role-text {
     font-size: 1.4rem;
     font-weight: 400;
     color: #d1d5db;
@@ -92,7 +92,7 @@
         height: 120px;
     }
 
-    .role-text {
+    #role-text {
         font-size: 1.05rem;
         padding: 0 0.5rem;
         line-height: 1.4;
