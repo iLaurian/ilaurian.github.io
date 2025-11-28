@@ -8,6 +8,7 @@
     <meta name="keywords" content="iLaurian's Portfolio, Blog and Personal Website">
     <meta name="author" content="Laurian Iacob">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lib/index.js"></script>
 </head>
 <body>
     <main id="content-container">
@@ -19,38 +20,13 @@
         <div class="dropdown">
             <button class="dropbtn">Filter by Category</button>
             <div class="dropdown-content">
-                <a href="#" data-filter="all">Show All</a>
-                <a href="#" data-filter="experience-card">Work Experience</a>
-                <a href="#" data-filter="education-card">Education</a>
+                <a href="#" class="filter-btn" data-filter="all">Show All</a>
+                <a href="#" class="filter-btn" data-filter="experience-card">Work Experience</a>
+                <a href="#" class="filter-btn" data-filter="education-card">Education</a>
             </div>
         </div>
 
-        <div class="timeline-list">
-
-            <div class="timeline-item education-card">
-                <h4>Bachelor of Science - BS, Computer Science</h4>
-                <h4>University of Bucharest (Education)</h4>
-                <p>Oct 2025 - Present</p>
-            </div>
-
-            <div class="timeline-item experience-card">
-                <h4>Freelance Software Developer - Upwork (Experience)</h4>
-                <p>Jun 2024 - Present</p>
-                <p>Top Rated freelancer with 100% Job Success Score and a perfect 5-star rating.</p>
-            </div>
-
-            <div class="timeline-item experience-card">
-                <h4>Freelance Software Developer - Fiverr (Experience)</h4>
-                <p>Mar 2022 - Sep 2022</p>
-                <p>Achieved Level 1 seller status with a perfect 5-star rating.</p>
-            </div>
-
-            <div class="timeline-item education-card">
-                <h4>High School Diploma</h4>
-                <h4>Vasile Alecsandri National College (Education)</h4>
-                <p>Sep 2021 - Jun 2025</p>
-            </div>
-
+        <div class="timeline-list" id="experience-container">
         </div>
     </main>
 
@@ -58,6 +34,5 @@
         <p>&copy; 2025 Laurian Iacob Portfolio. All rights reserved.</p>
         <p>Built with HTML, CSS and Vanilla JavaScript.</p>
     </footer>
-    <script src="lib/index.js"></script>
 </body>
 </html>

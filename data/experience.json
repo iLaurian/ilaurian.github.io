@@ -1,0 +1,30 @@
+[
+  {
+    "category": "education-card",
+    "title": "Bachelor of Science - BS, Computer Science",
+    "organization": "University of Bucharest",
+    "date": "Oct 2025 - Present",
+    "description": ""
+  },
+  {
+    "category": "experience-card",
+    "title": "Freelance Software Developer",
+    "organization": "Upwork",
+    "date": "Jun 2024 - Present",
+    "description": "Top Rated freelancer with 100% Job Success Score and a perfect 5-star rating."
+  },
+  {
+    "category": "experience-card",
+    "title": "Freelance Software Developer",
+    "organization": "Fiverr",
+    "date": "Mar 2022 - Sep 2022",
+    "description": "Achieved Level 1 seller status with a perfect 5-star rating."
+  },
+  {
+    "category": "education-card",
+    "title": "High School Diploma",
+    "organization": "Vasile Alecsandri National College",
+    "date": "Sep 2021 - Jun 2025",
+    "description": ""
+  }
+]
