@@ -1,0 +1,122 @@
+:root {
+    --bg-color: #0d1117;
+    --border-color: #30363d;
+    --text-primary: #e6edf3;
+    --text-secondary: #848d97;
+}
+
+.awards-section {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-color);
+}
+
+.section-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border-color);
+    background-color: #161b22;
+    border-radius: 6px 6px 0 0;
+}
+
+.section-header h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.award-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.award-item {
+    display: flex;
+    gap: 20px;
+    padding: 24px;
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.2s;
+    align-items: flex-start;
+}
+
+.award-item:last-child {
+    border-bottom: none;
+}
+
+.award-item:hover {
+    background-color: #161b22;
+}
+
+.award-logo {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    background-color: #21262d;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.award-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text Content */
+.award-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.award-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 4px 0;
+    line-height: 1.4;
+}
+
+.award-org {
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.award-date {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+.award-description {
+    font-size: 0.95rem;
+    color: #c9d1d9; /* Slightly lighter than secondary text for readability */
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .award-item {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .award-logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .award-title {
+        font-size: 1.1rem;
+    }
+}
