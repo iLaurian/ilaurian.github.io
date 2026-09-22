@@ -8,10 +8,15 @@
     border-radius: 12px;
     display: flex;
     gap: 2rem;
-    max-width: 650px;
-    width: 100%;
+    max-width: 100%;
+    width: 650px;
     align-items: center;
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem auto;
+}
+
+#profile-card > div:nth-child(2) {
+    flex: 1;
+    min-width: 0;
 }
 
 #profile-pic-container {
