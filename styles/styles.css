@@ -47,14 +47,9 @@ a {
     padding-bottom: 5px;
 }
 
-.home-link a:hover {
-    color: #29ABCD;
-    transition: 0.5s ease-in-out;
-}
-
 .home-link a::after {
     content: "";
-    background: linear-gradient(to right, #CD00A1, #29ABCD);
+    background: #BBC863;
     border-radius: 10px;
     height: 5px;
     width: 0;

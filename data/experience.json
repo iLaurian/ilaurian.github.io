@@ -1,10 +1,24 @@
 [
   {
+    "category": "experience-card",
+    "title": "Tutor & Task Author",
+    "organization": "Bucharest Cram School",
+    "date": "Feb 2026 - Present",
+    "description": "Mentored ∼30 students in AI fundamentals, delivering engaging lessons to simplify complex machine learning concepts."
+  },
+  {
     "category": "education-card",
     "title": "Bachelor of Science - BS, Computer Science",
     "organization": "University of Bucharest",
     "date": "Oct 2025 - Present",
     "description": ""
+  },
+  {
+    "category": "experience-card",
+    "title": "Junior Software Engineer",
+    "organization": "Profluid GmbH",
+    "date": "Jul 2025 - Present",
+    "description": "Developing core features for Go and Odoo apps across Industrial Analytic, Pump & Dosing Technology, and Hygiene Inspection domains."
   },
   {
     "category": "experience-card",
