@@ -2,6 +2,11 @@ html {
     background: #222831;
     color: #DFD0B8;
     font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 body {
